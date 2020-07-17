@@ -1202,15 +1202,14 @@ span{
 }
 .footer__container {
 	max-width: 1114px;
-	min-height: 148px;
-	margin-top:56px;
-	margin-left: 130px;
+	margin:56px auto;
 }
 .wrapp__footer__container {}
 .footer__body {}
 .footer__row {
 	display: flex;
 	margin:0px -78px;
+	flex-wrap: wrap;
 }
 .footer__column1 {
 	flex:1 0 289px;
@@ -1329,7 +1328,7 @@ input{
 }
 .footer__btm__container {
 	max-width: 1114px;
-	margin-left: 130px;
+	margin:0 auto;
 }
 .footer__btm__title {
 	width: 191px;
