@@ -1030,6 +1030,7 @@ span{
 	padding-top: 57px;
 }
 .partners__title {
+	white-space: nowrap;
 	width: 187px;
 	height: 26px;
 	color: #161e26;
