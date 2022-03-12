@@ -427,9 +427,13 @@ a:hover{
 }
 .tel__animation-1:hover + .tel__animation-2 {
   left: -41px;
+  transform:scale(0.9);
+	opacity:.8;
 }
 .tel__animation-1:hover ~ .tel__animation-3 {
   left: -81px;
+	transform:scale(0.8);
+	opacity:.6;
 }
 .block-blue__text {
 	max-width: 743px;
